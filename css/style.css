@@ -5,3 +5,21 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
   }
+
+  /* Header CSS  */
+ .top_banner {
+    background-color: #0d369f;
+    color: white;
+}
+
+.top_banner ul {
+    list-style: none;
+}
+
+.top_banner li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
