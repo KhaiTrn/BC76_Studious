@@ -28,15 +28,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <!-- (Optional) Use CSS or JS implementation -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
-      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    <!-- FONT AWESOME 5.8.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+      integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
-
+    />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -74,7 +73,9 @@
                 <h5 class="text-white">
                   Master the Skills to Drive your Career
                 </h5>
-                <a href="#">Know More<i class="fa fa-arrow-right ms-2"></i> </a>
+                <a href="#" class="btn btn_setting mt-sm-5 mt-4">
+                  Know More<i class="fa fa-arrow-right ms-2"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -84,7 +85,9 @@
                 <h5 class="text-white">
                   Studious is the best choice for everyone
                 </h5>
-                <a href="#">Know More<i class="fa fa-arrow-right ms-2"></i> </a>
+                <a href="#" class="btn btn_setting mt-sm-5 mt-4"
+                  >Know More<i class="fa fa-arrow-right ms-2"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -96,10 +99,7 @@
                 <div class="item color_1">
                   <i class="fa fa-cogs"></i>
                   <h4>
-                    <a href="#url"
-                      >Engineering & <br />
-                      Architecture</a
-                    >
+                    <a href="#url">Engineering & Architecture</a>
                   </h4>
                 </div>
               </div>
@@ -107,10 +107,7 @@
                 <div class="item color_2">
                   <i class="fa fa-book"></i>
                   <h4>
-                    <a href="#url"
-                      >Learning <br />
-                      Management</a
-                    >
+                    <a href="#url">Learning Management</a>
                   </h4>
                 </div>
               </div>
@@ -118,10 +115,7 @@
                 <div class="item color_3">
                   <i class="fa fa-coffee"></i>
                   <h4>
-                    <a href="#url"
-                      >Business & <br />
-                      Management</a
-                    >
+                    <a href="#url">Business & Management</a>
                   </h4>
                 </div>
               </div>
@@ -129,10 +123,7 @@
                 <div class="item color_4">
                   <i class="fa fa-hourglass-half"></i>
                   <h4>
-                    <a href="#url"
-                      >Artificial <br />
-                      Intelligence</a
-                    >
+                    <a href="#url">Artificial Intelligence</a>
                   </h4>
                 </div>
               </div>
@@ -159,7 +150,12 @@
     ></script>
     <script>
       $(document).ready(function () {
-        $(".owl-carousel").owlCarousel();
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          loop: true,
+          autoplay: true,
+          nav: false,
+        });
       });
     </script>
     <!-- COUNT UP -->
