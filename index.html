@@ -44,9 +44,9 @@
 <body>
   <!-- Top header  -->
   <section class="top_banner">
-    <div class="container-fluid d-flex justify-content-between  ">
+    <div class="container-fluid d-flex justify-content-between">
       <div class="content_left p-2">
-        <ul>
+        <ul class="ps-2">
           <li class="me-4">
             <a href="#">Have any question?</a>
           </li>
@@ -87,16 +87,18 @@
     </div>
   </section>
   <!-- place navbar here -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg text-uppercase fw-semibold">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"> 
-        <img src="./img/logo.png" alt="">Studious</a>
+      <a class="navbar-brand text-capitalize d-fle align-items-center ps-2" href="./index.html">
+        <img src="./img/logo.png" alt class="me-1">Studious</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon fa icon-expand fa-bars">
+        </span>
+        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -108,13 +110,13 @@
               Pages
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Blog posts</a></li>
-              <li><a class="dropdown-item" href="#">404 Page</a></li>
+              <li><a class="dropdown-item fw-semibold" href="#">Blog posts</a></li>
+              <li><a class="dropdown-item fw-semibold" href="#">404 Page</a></li>
               <li>
-                <a class="dropdown-item" href="#">Landing Page</a>
+                <a class="dropdown-item fw-semibold" href="#">Landing Page</a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">Element Page</a>
+                <a class="dropdown-item fw-semibold" href="#">Element Page</a>
               </li>
             </ul>
           </li>
@@ -122,16 +124,16 @@
             <a class="nav-link" aria-disabled="false">Contact</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Enter keyword" aria-label="Search" />
-          <!-- Moon icon placeholder for Dark mode -->
-           <!-- <div class="header_moon">
-            <a href="#">
-              <i class="fa-solid fa-moon"></i>
-            </a> -->
-           </div>
-        </form>
+        <form class="d-flex align-items-center " role="search">
+          <input class="form-control me-2" type="search" placeholder="Enter keyword" required="required"
+            aria-label="Search" />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+
       </div>
+      </form>
+    </div>
     </div>
   </nav>
 

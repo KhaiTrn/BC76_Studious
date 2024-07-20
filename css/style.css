@@ -11,11 +11,13 @@
 .top_banner {
   background-color: #0d369f;
   color: white;
+  padding: 10px 0 10px 0;
 }
 
 .top_banner ul {
   list-style: none;
   margin: auto;
+  padding: auto;
 }
 
 .top_banner li a {
@@ -23,14 +25,134 @@
   color: white;
   font-size: 15px;
   font-weight: 500;
+  transition: all 0.5s;
+}
+/* Chỉnh hover efect
+ */
+.top_banner a:hover {
+  color: #ff6e65;
+}
+
+/* Hover effect cho social media icons */
+.top_banner .content_right i:hover {
+  color: #ff6e65;
 }
 
 .top_banner ul {
   display: flex;
+  /* padding: auto; */
+  margin: auto;
+  justify-content: center;
 }
 
+/* Chỉnh responsive  */
 /* @media screen and (min-width: 992px) {
   .top_banner .content_left a {
     color: red;
   }
 } */
+
+/* Nav bar CSS  */
+
+/* chỉnh màu chữ Studios */
+.navbar-brand {
+  color: #0d369f;
+  font-size: 26px;
+  transition: all 0.5s;
+}
+
+/* Chỉnh hover effect cho links tren navbar  */
+a.navbar-brand:hover {
+  color: #ff6e65;
+}
+
+/* Chỉnh lại màu chữ cho Menu item defaul */
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+}
+
+/* Chỉnh active color cho Menu item Home  */
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #ff6e65;
+}
+
+/* Hover cho menu item  */
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #ff6e65;
+}
+.navbar-expand-lg .navbar-nav .nav-item.dropdown .dropdown-item {
+  color: black;
+  transition: all 0.5s;
+}
+/* Hover cho sub-menu item của Pages  */
+.navbar-expand-lg .navbar-nav .nav-item.dropdown .dropdown-item:hover {
+  color: #ff6e65;
+}
+
+/* Chỉ search icon position */
+
+form button {
+  position: absolute;
+  color: #0d369f;
+  right: 0;
+  padding: 0 40px 0 0;
+  border: none;
+  background: transparent;
+  transition: all 0.5s;
+}
+
+/* Chỉnh Hover effect cho search icon  */
+
+form button:hover {
+  color: #ff6e65;
+}
+
+form .form-control {
+  border-radius: 30px;
+  padding: 10px 35px 10px 20px;
+}
+
+/* Responsive cho Header  */
+@media only screen and (max-width: 992px) {
+  .top_banner {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #0d369f;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #0d369f;
+  }
+
+  .navbar-expand-lg .navbar-collapse ul {
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    background-color: #0d369f;
+  }
+
+  .navbar-toggler-icon {
+    color: white;
+  }
+
+  button.navbar-toggler.collapsed .icon-expand {
+    display: block;
+  }
+
+  .navbar-toggler-icon.fa {
+    font-size: 20px;
+    line-height: 1.2em;
+    color: #fff;
+    background: #0d369f;
+    line-height: 34px;
+  }
+
+  button.navbar-toggler.collapsed .icon-close {
+    display: none;
+  }
+
+  button.navbar-toggler .icon-expand {
+    display: none;
+  }
+}
