@@ -108,6 +108,7 @@ a {
   font-size: 14px;
   color: #0d369f;
   opacity: 1;
+  transition: all 0.5s;
 }
 .instructors_item .item_icon a:hover {
   opacity: 0.8;
