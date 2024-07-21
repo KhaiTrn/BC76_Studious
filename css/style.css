@@ -52,10 +52,7 @@
   }
 } */
 
-
-
 /* Nav bar CSS  */
-
 
 .fixed-top {
   position: sticky;
@@ -175,5 +172,94 @@ form .form-control {
 
   button.navbar-toggler .icon-expand {
     display: none;
+  }
+}
+
+/* Welcome section CSS  */
+
+.welcome_title h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.welcome_title .welcome_divider {
+  position: relative;
+}
+.welcome_main h3 span {
+  color: #ff6e65;
+}
+
+.welcome_icon svg {
+  font-size: 33px;
+  color: #0d369f;
+  line-height: 70px;
+}
+
+.welcome_item {
+  padding: 0 15px;
+}
+
+.welcome_info h3 {
+  color: black;
+  transition: all 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.welcome_info h3:hover {
+  color: #ff6e65;
+}
+
+.welcome_info p {
+  color: #707070;
+  letter-spacing: 1.4px;
+  line-height: 28px;
+}
+
+h3.welcome_divider::before {
+  left: -20px;
+  bottom: -8px;
+  background: black;
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+}
+
+h3.welcome_divider::after {
+  left: 20px;
+  bottom: -15px;
+  background: black;
+  content: "";
+  width: 60px;
+  height: 2px;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+/* .welcome_icon {
+  position: relative;
+  z-index: 2;
+} */
+
+.welcome_icon {
+  height: 70px;
+  width: 70px;
+  background-color: #0d369f17;
+  top: 0;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1;
+  margin: auto;
+}
+
+
+@media (max-width: 992px) {
+  .welcome_body {
+      flex-wrap: wrap; /* Allow items to wrap to the next line */
+      justify-content: center; /* Center items on smaller screens */
   }
 }
