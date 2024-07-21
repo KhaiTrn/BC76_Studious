@@ -55,6 +55,10 @@
 /* Nav bar CSS  */
 
 /* chỉnh màu chữ Studios */
+
+.navbar-expand-lg {
+  background-color: white;
+}
 .navbar-brand {
   color: #0d369f;
   font-size: 26px;
