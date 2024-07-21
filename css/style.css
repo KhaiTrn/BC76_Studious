@@ -256,10 +256,62 @@ h3.welcome_divider::after {
   margin: auto;
 }
 
-
 @media (max-width: 992px) {
   .welcome_body {
-      flex-wrap: wrap; /* Allow items to wrap to the next line */
-      justify-content: center; /* Center items on smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items on smaller screens */
   }
 }
+
+/* Services CSS  */
+
+.service_container {
+  background-image: url(./../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: auto;
+  margin: auto;
+}
+
+/* Chỉnh style, background cho service item  */
+.service_item {
+  background-color: white;
+  padding: 25px;
+  /* margin: 10px; */
+  border-radius: 7px;
+}
+
+.service_item .icon {
+  background-color: #0d369f17;
+  height: 60px;
+  line-height: 66px;
+  border-radius: 50%;
+  width: 60px;
+}
+
+.service_item svg {
+  width: 60px;
+  /* line-height: 80px; */
+  font-size: 26px;
+  color: #0d369f;
+}
+
+.service_item .description {
+  margin-left: 15px;
+}
+
+.service_item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #060606;;
+}
+
+.service_item .description p {
+  color: #707070;
+  font-size: 16px;
+}
+
+
+/* Service Responsive  */
+
