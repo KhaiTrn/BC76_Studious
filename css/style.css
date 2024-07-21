@@ -52,7 +52,28 @@
   }
 } */
 
+
+
 /* Nav bar CSS  */
+
+
+.fixed-top {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: white;
+}
+
+header.nav-fixed {
+  padding: 0px;
+  border-bottom: none;
+  z-index: 999 !important;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  height: 70px;
+}
 
 /* chỉnh màu chữ Studios */
 .navbar-brand {
