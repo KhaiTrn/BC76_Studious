@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
 /* Header CSS  */
 
 .top_banner {
@@ -160,3 +159,215 @@ form .form-control {
     display: none;
   }
 }
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+/* BANNER CSS */
+.banner_item1 {
+  background-image: url(../img/banner2.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  position: relative;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner_item2 {
+  background-image: url(../img/banner3.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  padding: 48px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner .owl-carousel {
+  position: relative;
+}
+.banner_title {
+  max-width: 600px;
+  z-index: 2;
+  position: relative;
+}
+.banner_title h5 {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: bold;
+  z-index: 3;
+}
+@media (max-width: 1200px) {
+  .banner_title h5 {
+    font-size: 57px;
+    line-height: 67px;
+  }
+  .banner_box .item a {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  h4 {
+    font-size: calc(1.275rem + 0.3v);
+  }
+}
+@media (max-width: 992px) {
+  .banner_title h5 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .banner_box .item a {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .banner_title h5 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 415px) {
+  .banner_title h5 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 366px) {
+  .banner_title h5 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+.banner .owl-dots {
+  position: absolute;
+  bottom: 120px;
+  right: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.banner .owl-dots span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px 2px;
+}
+.owl-dots:hover span {
+  background-color: #ff6e65;
+}
+.banner .owl-dots .active span {
+  background-color: #ff6e65;
+}
+.item1 {
+  padding: 30px 0;
+}
+.banner_title a {
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #060606;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+}
+.banner_item1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: linear-gradient(
+    75deg,
+    rgb(16 16 16 / 34%) 10%,
+    rgb(230 2 100 / 0%)
+  );
+}
+.banner_item2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: linear-gradient(
+    75deg,
+    rgb(16 16 16 / 34%) 10%,
+    rgb(230 2 100 / 0%)
+  );
+}
+.banner_content {
+  position: relative;
+  bottom: 60px;
+  z-index: 2;
+  padding: 0 5px;
+}
+.banner_content .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.box_item .item {
+  padding: 50px 38px;
+  border-radius: 8px;
+}
+
+.box_item a {
+  text-decoration: none;
+  color: white;
+}
+.color_1 {
+  background-color: #037ef3;
+}
+.color_2 {
+  background-color: #ffc949;
+}
+.color_3 {
+  background-color: #ff4f81;
+}
+.color_4 {
+  background-color: #1ee697;
+}
+.box_item i {
+  font-size: 45px;
+}
+.box_item h4 {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner_title .btn_setting {
+  padding: 14px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #060606;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+}
+/* BANNER CSS */
