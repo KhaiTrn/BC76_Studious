@@ -508,3 +508,82 @@ h3.welcome_divider::after {
 }
 
 /* Service Responsive  */
+/* NUMBER CSS START */
+.number_title {
+  max-width: 700px;
+}
+.number_title h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  position: relative;
+}
+.number_title h3::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -8px;
+  right: 0;
+  width: 60px;
+  height: 2px;
+
+  background-color: #707070;
+  margin: 0 auto;
+}
+.number_title h3::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: -15px;
+  right: 0;
+  width: 60px;
+  height: 2px;
+
+  background-color: #707070;
+  margin: 0 auto;
+}
+.number_title span {
+  color: #ff6e65;
+}
+.number_title p {
+  font-size: 16px;
+  color: #707070;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+.number_box .number_item span {
+  font-size: 46px;
+  font-weight: 600;
+  color: #060606;
+}
+.number_item p {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+@media (max-width: 991px) {
+  .number_box .number_item span {
+    font-size: 35px;
+  }
+  .number_item p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .number_title h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .number_item p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 410px) {
+  .number_title h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+/* NUMBER CSS END */
