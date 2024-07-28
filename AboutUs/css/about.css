@@ -215,7 +215,7 @@ form .form-control {
   color: #cecece;
   font-size: 15px;
 }
-.banner i {
+.banner .container svg {
   font-size: 8px;
   vertical-align: middle;
   margin: 0 5px;
