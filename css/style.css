@@ -1090,3 +1090,66 @@ li {
   visibility: visible;
   opacity: 1;
 }
+
+
+/* CONTACT US CSS  */
+
+.Contact_content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.contact_left {
+  margin: auto;
+  text-align: center;
+}
+
+
+.contact_left img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.contact_right_container {
+  padding-left: 20px;
+  padding-right:97px;
+}
+.contact_right button {
+  background-color: #ff6e65;
+  transition: all 0.5s;
+  padding: 14px 30px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+
+.contact_right button:hover {
+  background-color: #0D369F;
+}
+
+.contact_right a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.contact_right h3 {
+  font-size: 35px;
+  font-weight: 600;
+
+}
+
+.contact_right p {
+  letter-spacing: .4px;
+  color: #707070;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media screen and (max-width:992px) {
+  .Contact_content {
+    flex-direction: column;
+    
+  }
+}
