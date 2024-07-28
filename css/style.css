@@ -1058,10 +1058,20 @@ align-items: center;
 justify-content: space-between;
 }
 
+.contact_left {
+  margin: auto;
+  text-align: center;
+}
+
 
 .contact_left img {
   max-width: 100%;
-  margin: 0 58px;
+  margin: auto;
+}
+
+.contact_right_container {
+  padding-left: 20px;
+  padding-right:97px;
 }
 .contact_right button {
   background-color: #ff6e65;
