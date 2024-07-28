@@ -382,8 +382,10 @@ li {
   opacity: 1;
   transition: all 0.5s;
 }
-.sub_form:hover button {
+.sub_form button:hover {
+  background-color: #0d369f;
   opacity: 0.9;
+  color: white;
 }
 .form-control:focus {
   box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25);

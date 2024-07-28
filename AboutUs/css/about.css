@@ -868,6 +868,8 @@ li {
 }
 .sub_form:hover button {
   opacity: 0.9;
+  background-color: #0d369f;
+  color: white;
 }
 .form-control:focus {
   box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25);
