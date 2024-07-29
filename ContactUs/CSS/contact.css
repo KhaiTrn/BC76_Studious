@@ -920,6 +920,7 @@ font-size: 28px;
 font-weight: 700;
 margin-bottom: 55px;
 
+
 }
 
 .item_left {
@@ -987,7 +988,35 @@ margin-bottom: 55px;
  
   font-size: 40px;
   font-weight: 600;
+  line-height: 50px;
+  position:relative;
 }
+
+.questions .title h3::before{ 
+    content: "";
+    background: #707070;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: -20px;
+    bottom: -8px;
+}
+
+
+.questions .title h3::after{ 
+  content: "";
+  background: #707070;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  left: 20px;
+  bottom: -15px;
+}
+
 
 .questions .title span {
   color: #ff6e65;

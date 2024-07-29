@@ -368,6 +368,15 @@ form .form-control {
   border-radius: 4px;
   background-color: white;
   border: none;
+  transition: all 0.5s;
+}
+.banner_title .btn_setting:hover {
+  color: white;
+  background-color: #ff6e65;
+}
+.banner_title .btn:active {
+  color: white;
+  background-color: #ff6e65;
 }
 /* BANNER CSS */
 /* Welcome section CSS  */
@@ -1061,7 +1070,7 @@ li {
   opacity: 1;
   transition: all 0.5s;
 }
-.sub_form:hover button {
+.sub_form button:hover {
   opacity: 0.9;
   background-color: #0d369f;
   color: white;
@@ -1091,20 +1100,18 @@ li {
   opacity: 1;
 }
 
-
 /* CONTACT US CSS  */
 
-.Contact_content{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.Contact_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .contact_left {
   margin: auto;
   text-align: center;
 }
-
 
 .contact_left img {
   max-width: 100%;
@@ -1113,7 +1120,7 @@ justify-content: space-between;
 
 .contact_right_container {
   padding-left: 20px;
-  padding-right:97px;
+  padding-right: 97px;
 }
 .contact_right button {
   background-color: #ff6e65;
@@ -1121,11 +1128,10 @@ justify-content: space-between;
   padding: 14px 30px;
   font-weight: 600;
   margin-top: 20px;
-
 }
 
 .contact_right button:hover {
-  background-color: #0D369F;
+  background-color: #0d369f;
 }
 
 .contact_right a {
@@ -1137,19 +1143,17 @@ justify-content: space-between;
 .contact_right h3 {
   font-size: 35px;
   font-weight: 600;
-
 }
 
 .contact_right p {
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   color: #707070;
   font-size: 16px;
   line-height: 28px;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .Contact_content {
     flex-direction: column;
-    
   }
 }

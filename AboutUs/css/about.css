@@ -866,7 +866,7 @@ li {
   opacity: 1;
   transition: all 0.5s;
 }
-.sub_form:hover button {
+.sub_form button:hover {
   opacity: 0.9;
   background-color: #0d369f;
   color: white;
