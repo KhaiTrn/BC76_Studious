@@ -994,10 +994,61 @@ margin-bottom: 55px;
 
 }
 
+.contact_right .form-control {
+  padding:14px;
+}
+
 
 .contact_right button {
   background-color: #ff6e65;
   padding: 14px 30px;
   color: white;
   font-weight: 600;
+  transition: all 0.5s;
+}
+
+.contact_grid .input_field {
+  margin-bottom: 20px;
+}
+
+
+.contact_grid input {
+  background-color: #F9F9F9;
+  color: #707070;
+  
+}
+
+.contact_grid input:focus {
+  color: black;
+  background-color: white;
+  border-color: #ff6e65;
+  box-shadow: none;
+  background-color: #F9F9F9;
+
+}
+
+.form-input textarea {
+  background-color: #F9F9F9;
+  color: #707070;
+}
+
+.form-input .form-control {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 150px;
+
+}
+
+.form-input .form-control:focus {
+  color: black;
+  background-color: white;
+  border-color: #ff6e65;
+  box-shadow: none;
+  background-color: #F9F9F9;
+
+}
+
+.contact_right button:hover {
+  background-color: #0d369f;
+  color: white;
 }
