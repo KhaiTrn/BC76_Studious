@@ -79,7 +79,7 @@
     <nav class="navbar navbar-expand-lg text-uppercase fw-semibold sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand text-capitalize d-fle align-items-center ps-2" href="./index.html">
-                <img src="./img/logo.png" alt class="me-1" />Studious</a>
+                <img src="./../img/logo.png" alt class="me-1" />Studious</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -92,7 +92,7 @@
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="./../AboutUs/about-page.html">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -115,7 +115,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="./contact-page.html">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex align-items-center" role="search">
@@ -200,28 +200,28 @@
                     </h3>
                 </div>
                 <div class="contact_block d-flex">
-                    <div class="contact_left col-md-5">
+                    <div class="contact_left col-md-5 px-3">
                         <img src="./img/contact.jpg" alt="">
                     </div>
-                    <div class="contact_right col-md-7">
-                        <form action="" method="post">
-                            <div class="row mb-3">
+                    <div class="contact_right col-md-7 ps-4 pe-3">
+                        <form action="post" class="signin-form">
+                            <div class="input-grids">
                                 <div class="col-sm-10">
                                     <input type="name" class="form-control" id="colFormLabel" placeholder="Your Name*"
                                         required>
                                     <input type="email" class="form-control" id="colFormLabel" placeholder="Your Email*"
                                         required>
-                                    <input type="subject" class="form-control" id="colFormLabel" placeholder="Subject*"
+                                    <input type="text" class="form-control" id="colFormLabel" placeholder="Subject*"
                                         required>
                                 </div>
                             </div>
-                            <div class="message">
+                            <div class="form-input">
                                 <textarea name="w3lMessage" class="form-control" id="w3lMessage"
                                     placeholder="Type your message here*" required="" spellcheck="false"></textarea>
                             </div>
-                            <button type="submit" class="btn-warning">Send Message</button>
-
+                            <button type="submit" class="btn mt-sm-3">Send Message</button>
                         </form>
+
 
 
                     </div>

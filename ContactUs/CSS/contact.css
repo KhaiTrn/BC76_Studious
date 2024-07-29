@@ -975,9 +975,29 @@ margin-bottom: 55px;
 
 .questions img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .contact_right .input_message button {
     background-color: #ff6e65;
+    border:transparent;
+}
+
+.questions .title h3 {
+ 
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.questions .title span {
+  color: #ff6e65;
+
+}
+
+
+.contact_right button {
+  background-color: #ff6e65;
+  padding: 14px 30px;
+  color: white;
+  font-weight: 600;
 }
