@@ -481,21 +481,22 @@ h3.welcome_divider::after {
 /* Chỉnh style, background cho service item  */
 .service_item {
   background-color: white;
-  padding: 25px;
+  padding: 30px;
   /* margin: 10px; */
   border-radius: 7px;
 }
 
 .service_item .icon {
   background-color: #0d369f17;
-  height: 60px;
-  line-height: 66px;
+  height: 65px;
+  line-height: 74px;
   border-radius: 50%;
-  width: 60px;
+  width: 66px;
+  margin-right: 16px;
 }
 
 .service_item svg {
-  width: 60px;
+  width: 65px;
   /* line-height: 80px; */
   font-size: 26px;
   color: #0d369f;
@@ -514,6 +515,7 @@ h3.welcome_divider::after {
 .service_item .description p {
   color: #707070;
   font-size: 16px;
+  margin-right: 10px;
 }
 
 /* Service Responsive  */
